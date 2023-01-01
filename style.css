@@ -1,0 +1,173 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body 
+{
+    margin: 15px;
+    text-align: center;
+    background-image: url("assets/Brown\ Simple\ Aesthetic\ Desktop\ Wallpaper.png"); 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header 
+{
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+#logo
+{
+    height: 150px;
+}
+
+main
+{
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.information {
+    margin: auto;
+    width: 100%;
+    float: left; 
+    padding: 10px;
+    border: 5px solid rgb(255, 240, 240);
+    border-radius: 15px;
+    background-color: rgba(157, 189, 97, 0.979);
+    box-shadow: 0px 3px 10px rgb(92, 85, 85);
+}
+
+.results {
+    margin: auto;
+    margin-top: 25px;
+    width: 30%;
+    float: right; 
+    display: none;
+    padding: 10px;
+    border: 5px solid black;
+    border-left: none;
+    border-radius: 0 15px 15px 0;
+    background-color: rgba(64, 193, 197, 0.979);
+    box-shadow: 0px 3px 10px black;
+
+}
+
+h1{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px rosybrown;
+}
+
+h2{
+    margin: auto;
+    margin-top: 1em;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    text-shadow: 1px 1px 5px rosybrown;
+}
+
+p
+{
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
+}
+
+.p_results
+{
+    margin: auto;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    line-height: 1.2;
+}
+.p_results_per_person
+{
+    margin: auto;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    line-height: 1.2;
+}
+
+small {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    vertical-align: 2px;
+}
+
+#small_yes {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    vertical-align: 2px;
+}
+
+input {
+    font-family: Arial;
+    font-weight: normal;
+    text-align: center;
+}
+
+input:invalid {
+    border: rgb(168, 102, 255) solid 1px;
+    box-shadow: 1px 1px 5px yellow;
+}
+
+select {
+    font-family: Arial;
+    font-weight: normal;
+    text-align: center;
+    text-align-last: center;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 3px 10px palevioletred;
+}
+
+#p_button {
+    margin: auto;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+footer {
+    margin: auto;
+    width: 100%; 
+    max-width: 1000px;
+}
+#p_footer{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
